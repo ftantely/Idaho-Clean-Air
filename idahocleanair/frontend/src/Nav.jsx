@@ -3,7 +3,6 @@ import {
     Collapse,
     Navbar,
     NavbarToggler,
-    NavbarBrand,
     Nav,
     NavItem,
     NavLink,
@@ -29,7 +28,6 @@ export default class Example extends React.Component {
         return (
             <div >
             <Navbar color="success" fixed='top' light expand="md">
-            <NavbarBrand href="/"><img /></NavbarBrand>
             <NavbarToggler onClick={this.toggle} />
         <Collapse isOpen={this.state.isOpen} navbar>
         <Nav className="ml-auto" navbar color>

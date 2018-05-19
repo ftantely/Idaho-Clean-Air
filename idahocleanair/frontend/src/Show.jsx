@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, Redirect } from 'react-router-dom';
+import { Redirect } from 'react-router-dom';
 import gql from "graphql-tag"
 import { client } from './PrismaEndpoint/EndPoint'
 import './Show.css';
